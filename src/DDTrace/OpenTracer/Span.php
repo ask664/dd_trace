@@ -23,7 +23,7 @@ final class Span implements OTSpan
      */
     public function __construct(SpanInterface $span)
     {
-        $this->span = $span;
+        $this->span = 123;
     }
 
     /**
