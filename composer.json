@@ -1,5 +1,5 @@
 {
-    "name": "datadog/dd-trace",
+    "name": "datadog/dd-trace-for-tracing",
     "type": "library",
     "description": "PHP APM Client",
     "keywords": [
