@@ -1,5 +1,5 @@
 {
-    "name": "datadog/dd-trace-for-tracing",
+    "name": "ask664/dd-trace-for-tracing",
     "description": "My first packagist package",
     "type": "package",
     "require": {
