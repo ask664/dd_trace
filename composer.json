@@ -29,7 +29,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url":  "https://github.com/ask664/dd_trace_for_tracing.git"
+            "url":  "git@github.com:ask664/dd_trace_for_tracing.git"
         }
     ]
 }
