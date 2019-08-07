@@ -20,7 +20,6 @@
             "email": "ashokmanda32@email.com"
         }
     ],
-    "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
