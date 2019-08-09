@@ -28,6 +28,8 @@ final class SpanEncoder
             'service' => $span->service,
             'start' => (int) ($span->startTime . '000'),
             'error' => $span->hasError ? 1 : 0,
+            'agent_id' => 123,
+            'agent_name' => 'testing'
         ];
 
         if ($span->type !== null) {
