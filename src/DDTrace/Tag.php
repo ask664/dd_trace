@@ -46,4 +46,9 @@ class Tag
     const MONGODB_SERVER = 'mongodb.server';
     const MONGODB_TIMEOUT = 'mongodb.timeout';
     const MONGODB_QUERY = 'mongodb.query';
+
+    // agent info
+    const AGENT_ID = 'agent_id';
+    const TENANT_ID = 'tenant_id';
+    const AGENT_NAME = 'agent_name';
 }

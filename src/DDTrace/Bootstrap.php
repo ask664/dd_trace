@@ -104,6 +104,20 @@ final class Bootstrap
             Tag::SPAN_TYPE,
             'cli' === PHP_SAPI ? Type::CLI : Type::WEB_SERVLET
         );
+
+        // add agent information
+        $span->setTag(
+            Tag::AGENT_ID,
+            getenv('AGENT_ID')
+        );
+        $span->setTag(
+            Tag::TENANT_ID,
+            getenv('TENANT_ID')
+        );
+        $span->setTag(
+            Tag::AGENT_NAME,
+            getenv('AGENT_NAME')
+        );
         if ('cli' !== PHP_SAPI) {
             $span->setTag(Tag::HTTP_METHOD, $_SERVER['REQUEST_METHOD']);
             $span->setTag(Tag::HTTP_URL, $_SERVER['REQUEST_URI']);
